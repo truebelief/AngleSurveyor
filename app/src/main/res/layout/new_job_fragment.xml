@@ -1,0 +1,41 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/headFragment"
+    android:background="@drawable/new_frag_back"
+    >
+    <ImageButton
+        android:id="@+id/myButtonCall"
+        android:layout_width="@dimen/button_call_slide_size"
+        android:layout_height="@dimen/button_call_slide_size"
+        android:layout_margin="@dimen/button_call_slide_margin"
+        android:layout_gravity="center"
+        android:src="@mipmap/button_call"
+        android:background="@null"
+        />
+    <EditText
+        android:id="@+id/myEditText"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:hint="@string/add_job_hint"
+        android:contentDescription="@string/add_job_content_description"
+        />
+    <ImageButton
+        android:id="@+id/myJobEdit"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.15"
+        android:src="@mipmap/job_edit"
+        android:background="@null"
+        />
+    <ImageButton
+        android:id="@+id/myJobAdd"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.15"
+        android:src="@mipmap/job_add"
+        android:background="@null"
+        />
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/myAndroid">
+
+    <fragment android:name="com.example.truebelief.anglesurveyor.CreateJobFragment"
+        android:id="@+id/CreateJobFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <com.example.truebelief.anglesurveyor.MainPanel
+        android:orientation="horizontal"
+        android:layout_width="fill_parent" android:layout_height="match_parent"
+        android:id="@+id/MainPanel"
+        android:clickable="true"
+        >
+    </com.example.truebelief.anglesurveyor.MainPanel>
+
+</LinearLayout>

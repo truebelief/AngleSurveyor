@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">AngleSurveyor</string>
+
+    <string name="hello_world">Welcome!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_job_hint">New Job</string>
+    <string name="add_job_content_description">New Job</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="slide_job">Job</string>
+    <string name="slide_angle">Angle</string>
+    <string name="slide_point">Point</string>
+    <string name="slide_site">Site</string>
+    <string name="slide_config">Config</string>
+
+
+
+    <!--<string-array name="slide_array">-->
+        <!--<item>Job</item>-->
+        <!--<item>Angle</item>-->
+        <!--<item>Point</item>-->
+        <!--<item>Site</item>-->
+        <!--<item>Config</item>-->
+        <!--</string-array>-->
+    <!--<string-array name="slide_image_array">-->
+        <!--<item>slide_1</item>-->
+        <!--<item>slide_2</item>-->
+        <!--<item>slide_3</item>-->
+        <!--<item>slide_4</item>-->
+        <!--<item>slide_5</item>-->
+    <!--</string-array>-->
+
+
+</resources>

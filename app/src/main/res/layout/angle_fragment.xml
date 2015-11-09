@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/angleFrame"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <TextView
+        android:id="@+id/angleText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Angle!"
+        android:textSize="20dp"
+        android:paddingLeft="@dimen/notepad_margin"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        />
+    <FrameLayout
+        android:id="@+id/angleGL"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>
+
+
